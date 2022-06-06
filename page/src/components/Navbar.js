@@ -4,10 +4,10 @@ import { FaBars } from 'react-icons/fa';
 const Navbar = () => {
   return (
     
-        <nav>
+        <nav className="total-nav">
           <div className='desktop'>Ostyler
           </div>
-          <div>
+          <div className="navicon">
           <FaBars className="icon"></FaBars> 
           </div>
          <ul className='app__navbar-links' >
