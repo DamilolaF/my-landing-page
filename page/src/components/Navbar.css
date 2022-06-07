@@ -10,3 +10,9 @@
    left: 0;
    z-index: 100;
 }
+
+.desktop{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
