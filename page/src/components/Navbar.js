@@ -5,18 +5,22 @@ const Navbar = () => {
   return (
     
         <nav className="total-nav">
-          <div className='desktop'>Ostyler
+          <div className='desktop'>OSTYLER
           </div>
           <div className="navicon">
           <FaBars className="icon"></FaBars> 
           </div>
          <ul className='app__navbar-links' >
-        <li className='p__opensans' ><a href="#home">Home</a></li>
-        <li className='p__opensans' ><a href="#about">About</a></li>
-        <li className='p__opensans' ><a href="#menu">Menu</a></li>
-        <li className='p__opensans' ><a href="#awards">Awards</a></li>
-        <li className='p__opensans' ><a href="#contact">Contact</a></li>
-      </ul></nav>
+              <li className='navbar-link' ><a href="#home">Home</a></li>
+              <li className='navbar-link' ><a href="#about">About</a></li>
+              <li className='navbar-link' ><a href="#menu">Menu</a></li>
+              <li className='navbar-link' ><a href="#awards">Awards</a></li>
+              <li className='navbar-link' ><a href="#contact">Contact</a></li>
+      </ul>
+        <div className="reserve">
+          <a href="http://geritch.com" className="p__opensans">Reservation</a>
+        </div>
+      </nav>
     
   )
 };
