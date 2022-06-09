@@ -11,28 +11,26 @@ const Navbar = () => {
         <nav className="total-nav">
           <div className='desktop'>OSTYLER
           </div>
-         <ul className='app__navbar-links' >
+         <ul className='navbar-links' >
               <li className='navbar-link' ><a href="#home">Home</a></li>
               <li className='navbar-link' ><a href="#about">About</a></li>
               <li className='navbar-link' ><a href="#menu">Menu</a></li>
-              <li className='navbar-link' ><a href="#awards">Awards</a></li>
               <li className='navbar-link' ><a href="#contact">Contact</a></li>
       </ul>
       <div className="reserve">
           <a href="http://geritch.com" className="navbar-link">Reservation</a>
         </div>
       
-          <div className='app__navbar-smallscreen'>
+          <div className='navbar-smallscreen'>
         <FaBars color='black' fontSize={27} onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
-          <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
-          <FaBars fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)} />
-          <ul className='app__navbar-smallscreen-links' >
+          <div className='navbar-smallscreen_overlay flex__center slide-bottom'>
+          <FaBars fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)}/>
+          <ul className='navbar-smallscreen-links' >
             <li className='navbar-link' ><a href="#home">Home</a></li>
             <li className='navbar-link' ><a href="#about">About</a></li>
             <li className='navbar-link' ><a href="#menu">Menu</a></li>
-            <li className='navbar-link' ><a href="#awards">Awards</a></li>
             <li className='navbar-link' ><a href="#contact">Contact</a></li>
           </ul>
         </div>
