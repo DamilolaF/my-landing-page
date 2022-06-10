@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from './Navbar';
-//import { Subhead } from './components/Subhead';
-import { images } from './images';
+import SubHeading  from  './SubHeading';
+//import { images } from './src/images';
+import './Header.css'
 
 const Header = () => {
   return (
     <div className='app__header app__wrapper section__padding' id='home' >
-    <Navbar></Navbar>
+    
     <div className='app__wrapper_info' >
       <SubHeading title='Chase the new flavour' />
       <h1 className='app__header-h1' >Flavors for royalty</h1>
@@ -17,7 +18,7 @@ const Header = () => {
     </div>
 
     <div className='app__wrapper_img'>
-      <img src={images.header} alt="header-img" className='app__header-img' />
+      {/* <img src={images.header} alt="header-img" className='app__header-img' /> */}
     </div>
   </div>
   )

@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import { BrowserRouter as Router } from 'react-router-dom';
-//import Subhead from './components/Subhead';
+import SubHeading from './components/SubHeading';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
    <Navbar></Navbar>
    <Header></Header>
-   {/* <Subhead></Subhead> */}
+  <SubHeading></SubHeading> 
     </div>
     </Router>
   );
