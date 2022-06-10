@@ -1,14 +1,20 @@
 .app__header {
-    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,2),url('../images/Resturant.jpg'))
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('../images/Resturant.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-repeat: repeat; */
 }
 
 .app__header-h1 {
+    margin: 4rem 0;
     font-family: var(--font-nase);
     color: var(--color-golden);
     letter-spacing: 0.04em;
     text-transform: uppercase;
     line-height: 90px;
-    font-size: 80px;
+    font-size: 40px;
 }
 
 
