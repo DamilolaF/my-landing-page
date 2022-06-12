@@ -1,0 +1,22 @@
+.cakeContainer{
+    min-height: 100vh;
+    padding: 5rem calc(100vh - 1300px) / 2;
+    background: #150f0f;
+    color: palegoldenrod;
+}
+.cakeContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.cakeCard{
+    margin: 0 2rem;
+    line-height: 2;
+    width: 300px;
+}
+.cakeImg{
+    height: 200px;
+    box-shadow: 5px 30px #Cea900;
+    width: auto;
+}
