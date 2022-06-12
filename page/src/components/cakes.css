@@ -19,4 +19,31 @@
     height: 200px;
     box-shadow: 5px 30px #Cea900;
     width: auto;
+    margin-bottom: 5rem;
+}
+.cakeInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+.cakePrice{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-top: auto
+}
+.cakeBtn{
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    border: none;
+    background: #F76028;
+    color: palegoldenrod;
+    transition: 0.2 ease-out;
+}
+.cakeBtn:hover{
+    background: rgb(98, 1, 98);
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    
 }

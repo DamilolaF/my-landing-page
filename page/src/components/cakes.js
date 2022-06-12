@@ -1,8 +1,9 @@
 import React from 'react';
 import { cakes } from '../data/dessert';
 
-const Cakes = ( {id} ) => {
-  return (<div className="cakeContainer">
+const Cakes = ({ id }) => {
+  return (
+  <div className="cakeContainer">
       <h1 className="cakeHead">Delicious Desserts </h1>
       <div className="cakeContent">
         {cakes.map((cake,index)=> (
