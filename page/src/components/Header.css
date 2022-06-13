@@ -54,7 +54,9 @@
 @media screen and (max-width:650px) {
     .contentItems{
         width: 100%;
+        text-align: center;
     }
+   
 }
 
 .navHead{

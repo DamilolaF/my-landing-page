@@ -1,48 +1,48 @@
-.cakeContainer{
+.foodContainer{
     min-height: 100vh;
     padding: 5rem calc(100vh - 1300px) / 2;
-    background: #2f0a0a;
+    background: #661313;
     color: palegoldenrod;
 }
-.cakeContent{
+.foodContent{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
 }
-.cakeCard{
+.foodCard{
     margin: 0 2rem;
     line-height: 1;
     width: 300px;
 }
-.cakeImg{
+.foodImg{
     height: 200px;
     box-shadow: 5px 3px #b2940e;
     width: auto;
-    /* margin-bottom: 2rem; */
+    
 }
-.cakeHead{
+.foodHead{
     font-size: clamp(2rem, 2.5vw, 3rem);
 	text-align: center;
 	margin-bottom: 5rem;
 }
-.propTitle{
+.foodTitle{
 	font-weight: 500;
 	font-size: 1.5rem;
 }
-.cakeInfo{
+.foodInfo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
     text-align: center;
 }
-.cakePrice{
+.foodPrice{
     margin-bottom: 1rem;
     font-size: 1rem;
     margin-top: auto
 }
-.cakeBtn{
+.foodBtn{
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border: none;
@@ -50,7 +50,7 @@
     color: rgb(216, 212, 163);
     transition: 0.2 ease-out;
 }
-.cakeBtn:hover{
+.foodBtn:hover{
     background: rgb(216, 212, 163);
     color: #e18868;
     transition: 0.2s ease-out;

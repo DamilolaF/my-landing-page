@@ -4,6 +4,7 @@ import './Navbar.css';
 
 
 
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
@@ -18,7 +19,7 @@ const Navbar = () => {
               <li className='navbar-link' ><a href="#contact">Contact</a></li>
       </ul>
       <div className="reserve">
-          <a href="http://geritch.com" className="navbar-link">Reservation</a>
+          <a href="http://geritch.com" className="navbar">Reservation</a>
         </div>
       
           <div className='navbar-smallscreen'>
@@ -26,7 +27,7 @@ const Navbar = () => {
 
         {toggleMenu && (
           <div className='navbar-smallscreen_overlay flex__center slide-bottom'>
-          <FaBars fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)}/>
+          <FaBars color='white' fontSize={24} className='overlay__close' onClick={() => setToggleMenu(false)}/>
           <ul className='navbar-smallscreen-links' >
             <li className='navbar-link' ><a href="#home">Home</a></li>
             <li className='navbar-link' ><a href="#about">About</a></li>
