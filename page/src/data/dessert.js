@@ -1,8 +1,8 @@
-import cake1 from '../images/cakes-1.jpg';
-import cake2 from '../images/cakes-2.jpg';
-import cake3 from '../images/cakes-3.jpg';
-import cake4 from '../images/cakes-4.jpg';
-import cake5 from '../images/cakes-5.jpg';
+import cake1 from '../images/cake-1.jpg';
+import cake2 from '../images/cake-2.jpg';
+import cake3 from '../images/cake-3.jpg';
+import cake4 from '../images/cake-4.jpg';
+import cake5 from '../images/cake-5.jpg';
 
 
 

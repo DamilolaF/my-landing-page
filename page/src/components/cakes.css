@@ -1,7 +1,7 @@
 .cakeContainer{
     min-height: 100vh;
     padding: 5rem calc(100vh - 1300px) / 2;
-    background: #150f0f;
+    background: #2f0a0a;
     color: palegoldenrod;
 }
 .cakeContent{
@@ -12,14 +12,14 @@
 }
 .cakeCard{
     margin: 0 2rem;
-    line-height: 2;
+    line-height: 1;
     width: 300px;
 }
 .cakeImg{
     height: 200px;
-    box-shadow: 5px 30px #Cea900;
+    box-shadow: 5px 30px #b2940e;
     width: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 .cakeInfo{
     display: flex;
@@ -35,15 +35,15 @@
 }
 .cakeBtn{
     font-size: 1rem;
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
     border: none;
-    background: #F76028;
-    color: palegoldenrod;
+    background: #e18868;
+    color: rgb(216, 212, 163);
     transition: 0.2 ease-out;
 }
 .cakeBtn:hover{
-    background: rgb(98, 1, 98);
+    background: rgb(216, 212, 163);
+    color: #e18868;
     transition: 0.2s ease-out;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }

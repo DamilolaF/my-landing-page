@@ -4,7 +4,7 @@ import food3 from '../images/pot-mussels.jpg';
 import food4 from '../images/salmon.jpg';
 import food5 from '../images/spaghetti.jpg';
 
-export const food = [
+export const foods = [
     {
             img: food1,
             alt: 'food',
