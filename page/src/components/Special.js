@@ -6,8 +6,9 @@ const Special = () => {
   return (
 
       <div className="specialContainer">
-         <h2>dd</h2>
+         <h2>Weekly Special</h2>
         <div className="specialContent">
+            <img src={special} className="specialImage" alt="food" />
             <div className="textContent">
           <p>
           You'll be transported to Italy with our signature pepperoni pizza.

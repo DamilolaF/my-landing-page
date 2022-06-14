@@ -1,6 +1,6 @@
 .specialContainer{
     /* background: #fdfdfd; */
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('../images/restaurant-2.jpg');
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('../images/Resturant-2.jpg');
     height: 700px;
     /* max-height: 100%; */
     display: flex;
@@ -76,17 +76,18 @@
   
   .btn{
       font-size: 1rem;
-      padding: 1rem 4rem;
+      padding: 1rem 1rem;
       border: none;
-    width: 250px;
+    width: 200px;
     align-self: center;
-          background: #F76D28;
+    border-radius: 10px;
+          background: #cc5418;
       color: #fff;
       transition: 0.2 ease-out;
   }
   .btn:hover {
-      background: #5203C3;
-  
+    background: #fff;
+    color:  #cc5418;
     transition: 0.2s ease-out;
     cursor: pointer;
   }

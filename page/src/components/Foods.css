@@ -1,7 +1,7 @@
 .foodContainer{
     min-height: 100vh;
     padding: 5rem calc(100vh - 1300px) / 2;
-    background: #661313;
+    background: #3e0707;
     color: palegoldenrod;
 }
 .foodContent{
