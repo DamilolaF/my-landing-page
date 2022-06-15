@@ -3,7 +3,7 @@
    display: flex; 
    justify-content: space-between;
    align-items: center;
-   background-color: rgba(247, 242, 198, 0.7);
+   background-color: rgba(247, 242, 198, 0.45);
    background: 'transparent';
    padding: 1rem 2rem 0.5rem ;
    position: fixed;
@@ -15,12 +15,12 @@
 /* .total-nav.move{transform: translateY(-2000px)} */
 
  .navbar-link{
-    
     font-size: 1rem;
     display: flex;
     align-items: center;
     text-decoration: none;
 }
+
 a:link{
     color: gray;
     text-decoration: none;

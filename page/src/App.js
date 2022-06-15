@@ -1,5 +1,6 @@
 
 import './App.css';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom';
 //import SubHeading from './components/SubHeading';
@@ -17,6 +18,7 @@ function App() {
       <div className="App">
   <Navbar></Navbar>
    <Header></Header>
+   <About></About>
    <Foods id="foods"></Foods>
    <Cakes id="dessert"></Cakes>
    <Special></Special>

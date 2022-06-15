@@ -8,21 +8,18 @@ const Chefs = ({ id }) => {
   return (
     <div className="chefContainer" id={id}>
     <h1 className="cakeHeading">Our Kitchen Chefs</h1>
-    <div className="cakeWrapper">
+    <div className="chefWrapper">
         {chefs.map((chef, index) => (
-            // <Slide
-            //     key={(chef, index)}
-            //     right={index % 2 === 1 ? true : false}
-            //     left={index % 2 === 0 ? true : false}
-            // >
+           
                 <div className="cakeCard">
                     <img src={chef.img} className="chefImg" alt={chef.alt} />
                     <div className="cakeInfo">
                         <div className="protTitle">{chef.name}</div>
                     </div>
                 </div>
-            // </Slide>
+             
         ))}
+        <h2 className='quote'> "At Ostyler, we believe that food is more than just a meal—it's an experience."<p className='name'>- Simeon Peters,Head Chef</p></h2>
     </div>
 </div> 
   );

@@ -81,7 +81,7 @@
     width: 200px;
     align-self: center;
     border-radius: 10px;
-          background: #cc5418;
+    background: #cc5418;
       color: #fff;
       transition: 0.2 ease-out;
   }
@@ -90,4 +90,13 @@
     color:  #cc5418;
     transition: 0.2s ease-out;
     cursor: pointer;
+  }
+  @media screen and (max-width: 935px){
+    .btn{
+      background: rgba(212, 124, 40, 0.682);
+     
+    }
+    .btn:hover{
+      background: rgba(246, 243, 240, 0.682);
+    }
   }
