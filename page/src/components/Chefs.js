@@ -2,7 +2,6 @@ import React from 'react';
 import { chefs } from '../data/chef';
 import './Chefs.css';
 import './Cakes.css';
-// import Slide from 'react-reveal/Reveal';
 
 const Chefs = ({ id }) => {
   return (
