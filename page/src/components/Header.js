@@ -17,7 +17,7 @@ const Header = () => {
       <div className="contentItems">
       <h1 className='app__header-h1' >Flavors for royalty</h1>
       <p className='navbar-link' style={{ margin: '2rem 0' }} >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim neque sit nisi amet dicta in, ea sapiente placeat earum error.
+        ipsum dolor, sit amet consectetur adipisicing elit. Enim neque sit nisi amet dicta in, ea sapiente placeat earum error.
       </p>
       
       <button type='button' className='button' >Reservation</button>
