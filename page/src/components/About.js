@@ -4,7 +4,7 @@ import './About.css';
 const About = () => {
   return (
     <>
-    <div className="container">
+    <div className="container" id='about'>
     <div className='app__aboutus-content_about'>
           <h1 className='headtext__cormorant'>About Us</h1>
           {/* <img src={images.spoon} alt="about spoon" className='spoon__img' /> */}
@@ -12,6 +12,7 @@ const About = () => {
               Our restaurant was founded on the idea of providing our customers with both excellent service and quality food in an environment that feels like home.
           </p>
           <button type='button' className='custom__button'>Know More</button>
+          <span ></span>
       </div>
       <div className='app__aboutus-content_history' >
         <h1 className='headtext__cormorant'>Our History</h1>

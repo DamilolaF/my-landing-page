@@ -1,26 +1,29 @@
 import React from "react";
 import { FaBars } from 'react-icons/fa';
 import './Navbar.css';
+import {Link} from 'react-scroll';
 
 
 
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = React.useState(false);
+   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
     
         <nav className="total-nav">
+          <Link to='Home'>
           <div className='desktop'>OSTYLER
           </div>
+          </Link>
          <ul className='navbar-links' >
               <li className='navbar-link' ><a href="#home">Home</a></li>
               <li className='navbar-link' ><a href="#about">About</a></li>
               <li className='navbar-link' ><a href="#menu">Menu</a></li>
-              <li className='navbar-link' ><a href="#contact">Contact</a></li>
+              <li className='navbar-link' ><a href="#contact">Reservation</a></li>
       </ul>
-      <div className="reserve">
+      {/* <div className="reserve">
           <a href="http://geritch.com" className="navbar">Reservation</a>
-        </div>
+        </div> */}
       
           <div className='navbar-smallscreen'>
         <FaBars color='black' fontSize={27} onClick={() => setToggleMenu(true)} />
@@ -32,7 +35,7 @@ const Navbar = () => {
             <li className='navbar-link' ><a href="#home">Home</a></li>
             <li className='navbar-link' ><a href="#about">About</a></li>
             <li className='navbar-link' ><a href="#menu">Menu</a></li>
-            <li className='navbar-link' ><a href="#contact">Contact</a></li>
+            <li className='navbar-link' ><a href="#contact">Reservation</a></li>
           </ul>
         </div>
         )}

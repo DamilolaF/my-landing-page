@@ -20,7 +20,7 @@ const Header = () => {
         ipsum dolor, sit amet consectetur adipisicing elit. Enim neque sit nisi amet dicta in, ea sapiente placeat earum error.
       </p>
       
-      <button type='button' className='button' >Reservation</button>
+      <button type='button' className='button' ><a href='#menu'>Explore</a></button>
     </div>
     </div>
     <div className='app__wrapper_img'>

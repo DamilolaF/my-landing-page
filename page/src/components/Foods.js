@@ -9,7 +9,7 @@ const Foods = ({ id }) => {
         return (
           
         
-        <div className="foodContainer" id={id}>
+        <div className="foodContainer" id='#menu'>
             <h1 className="foodHead">Popular Meal menu </h1>
             <div className="foodContent">
               
