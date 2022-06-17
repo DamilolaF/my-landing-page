@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBars } from 'react-icons/fa';
 import './Navbar.css';
-import {Link} from 'react-scroll';
+import { Link } from 'react-scroll';
 
 
 
@@ -11,15 +11,15 @@ const Navbar = () => {
   return (
     
         <nav className="total-nav">
-          <Link to='Home'>
+          <Link to='home'>
           <div className='desktop'>OSTYLER
           </div>
           </Link>
          <ul className='navbar-links' >
-              <li className='navbar-link' ><a href="#home">Home</a></li>
-              <li className='navbar-link' ><a href="#about">About</a></li>
-              <li className='navbar-link' ><a href="#menu">Menu</a></li>
-              <li className='navbar-link' ><a href="#contact">Reservation</a></li>
+              <li><Link to="#home">Home</Link></li>
+              <li><Link to="#about">About</Link></li>
+              <li><Link to="#menu">Menu</Link></li>
+              <li><Link to="#contact">Reservation</Link></li>
       </ul>
       {/* <div className="reserve">
           <a href="http://geritch.com" className="navbar">Reservation</a>
@@ -32,10 +32,10 @@ const Navbar = () => {
           <div className='navbar-smallscreen_overlay flex__center slide-bottom'>
           <FaBars color='white' fontSize={24} className='overlay__close' onClick={() => setToggleMenu(false)}/>
           <ul className='navbar-smallscreen-links' >
-            <li className='navbar-link' ><a href="#home">Home</a></li>
-            <li className='navbar-link' ><a href="#about">About</a></li>
-            <li className='navbar-link' ><a href="#menu">Menu</a></li>
-            <li className='navbar-link' ><a href="#contact">Reservation</a></li>
+              <li><Link to="#home">Home</Link></li>
+              <li><Link to="#about">About</Link></li>
+              <li><Link to="#menu">Menu</Link></li>
+              <li><Link to="#contact">Reservation</Link></li>
           </ul>
         </div>
         )}

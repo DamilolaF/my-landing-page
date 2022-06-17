@@ -21,7 +21,7 @@
     text-decoration: none;
 }
 
-a:link{
+/* a:link{
     color: gray;
     text-decoration: none;
 }
@@ -32,14 +32,14 @@ a:hover{
 a:active{
     color: blanchedalmond;
     text-decoration: none;
-}
+} */
 .desktop{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size:larger;
-    font-weight: 500;
-    position: fixed;
+    font-size: x-large;
+    font-weight: 700;
+    position: relative;
     
 }
 .navbar-links {
@@ -58,7 +58,7 @@ a:active{
 }
 
 .navbar-links li:hover {
-    color: red;
+    color: rgb(95, 21, 21);
     text-decoration: none;
 }
 /* .reserve {
@@ -114,14 +114,17 @@ a:active{
 }
 
 .navbar-smallscreen-links li {
-    margin: 2rem;
+    margin: 3rem;
     cursor: pointer;
-    color: var(--color-golden);
+    color: palegoldenrod;
     font-size: 1.5rem;
     text-align: center;
     font-family: var(--font-base);
 }
 
+.navbar-smallscreen-links li:hover {
+    color:rgba(247, 242, 198, 0.45)
+}
 @media screen and (max-width: 2000px) {
     .navbar-logo img {
         width: 210px;

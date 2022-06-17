@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Cakes from './components/Cakes';
 import Foods from './components/Foods'
 import Special from './components/Special';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Chefs from './components/Chefs';
 import "slick-carousel/slick/slick.css";
@@ -24,6 +25,7 @@ function App() {
    <Cakes id="dessert"></Cakes>
    <Special></Special>
    <Chefs id="chef"></Chefs>
+   <Contact></Contact>
    <Footer></Footer>
   </div>
     </Router>
