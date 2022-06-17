@@ -1,15 +1,30 @@
 import React from 'react';
+import './Contact.css';
 
 const Contact = () => {
   return (
-    <div id="contact">
-      <h1>RESERVE A TABLE</h1> 
-      <form className='reservation' method='post'>
+<div id="contact" className='reservation'>
+<main className='content-text clear'>
+    <div className="reservation-info">
+    <form className='reservation-form' method='post'>   
+      <h2>RESERVE A TABLE</h2>
+      <div className="field">
           <input type="text" placeholder='Full Name' required/>
+          </div>
+          <br />
+          <div className="field">
           <input type="text" placeholder='Type Your E-mail' required/>
+          </div>
+         <br />
+          <div className="field">
           <textarea placeholder='Write Here....' required></textarea>
-          <input type="submit" value='Book'/>
-      </form>
+          </div> 
+          <div className='btn'>
+          <input type="submit" name="submit" value='Book' className='btn'/>  
+          </div> 
+        </form>
+        </div>
+      </main>
     </div>
   )
 }

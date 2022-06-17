@@ -1,0 +1,51 @@
+.reservation{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('../images/food.jpg');
+    height: 500px;
+    background-repeat: round;
+    text-align: center;
+    
+}
+.reservation-info{
+    margin-left: 50%;
+    
+   }
+@media screen and (max-width:650px) {
+   .reservation-info{
+    margin-left: 50%;
+   }
+}
+form.reservation-form h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+form.reservation-form .field{
+    margin-bottom: 20px;
+    width: 90%;
+    
+}
+form.reservation-form .field input,
+form.reservation-form .field textarea{
+    width: 100%;
+    border: 3px solid #000000;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+form.reservation-form .field textarea{
+    height: 150px;
+}
+.btn{
+        width: fit-content;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        background: #090300;
+        color: rgb(216, 212, 163);
+        transition: 0.2 ease-out;
+    }
+    .btn:hover{
+        background: rgb(216, 212, 163);
+        color: #110501;
+        transition: 0.2s ease-out;
+        cursor: pointer; 
+    }
