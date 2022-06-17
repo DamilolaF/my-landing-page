@@ -2,8 +2,7 @@
 .foodContainer{
     min-height: 100vh;
     /* padding: 5rem calc(100vh - 1300px) / 2; */
-    background: #3e0707;
-    color: palegoldenrod;
+    color: rgb(51, 49, 22); 
 }
 .foodContent{
     display: flex;
@@ -47,15 +46,16 @@
 }
 .foodBtn{
     font-size: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     border: none;
-    background: #e18868;
+    border-radius: 10px;
+    background: #542a1b;
     color: rgb(216, 212, 163);
     transition: 0.2 ease-out;
 }
 .foodBtn:hover{
     background: rgb(216, 212, 163);
-    color: #e18868;
+    color: #542a1b;
     transition: 0.2s ease-out;
     cursor: pointer; 
 }

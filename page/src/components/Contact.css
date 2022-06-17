@@ -34,16 +34,17 @@ form.reservation-form .field textarea{
 form.reservation-form .field textarea{
     height: 150px;
 }
-.btn{
+.btns{
         width: fit-content;
         font-size: 1rem;
         padding: 0.5rem 1rem;
         border: none;
+        border-radius: 10px;
         background: #090300;
         color: rgb(216, 212, 163);
         transition: 0.2 ease-out;
     }
-    .btn:hover{
+    .btns:hover{
         background: rgb(216, 212, 163);
         color: #110501;
         transition: 0.2s ease-out;

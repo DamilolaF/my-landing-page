@@ -1,8 +1,8 @@
 .cakeContainer{
     min-height: 100vh;
     padding: 5rem calc(100vh - 1300px) / 2;
-    background: #2f0a0a;
-    color: palegoldenrod;
+    background-color: rgb(223, 230, 191);
+    color: rgb(24, 23, 6);
 }
 .cakeContent{
     display: flex;
@@ -46,13 +46,14 @@
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border: none;
-    background: #e18868;
+    border-radius: 10px;
+    background: #150a06;
     color: rgb(216, 212, 163);
     transition: 0.2 ease-out;
 }
 .cakeBtn:hover{
     background: rgb(216, 212, 163);
-    color: #e18868;
+    color: #150a06;
     transition: 0.2s ease-out;
     cursor: pointer; 
 }

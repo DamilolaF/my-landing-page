@@ -38,8 +38,9 @@ a:active{
     justify-content: flex-start;
     align-items: center;
     font-size: x-large;
-    font-weight: 700;
+    font-weight: 800;
     position: relative;
+    cursor: pointer;
     
 }
 .navbar-links {

@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Foods = ({id}) => {
+const Foods = () => {
     //<Cakes></Cakes>
     const settings = {
       dots: true,
@@ -18,7 +18,7 @@ const Foods = ({id}) => {
       slidesToScroll: 1
   };
         return (
-        <div className="foodContainer" id={id}>
+        <div className="foodContainer" id="menu">
             <h1 className="foodHead">Popular Meal menu </h1>
             <div className="foodContent" >
               

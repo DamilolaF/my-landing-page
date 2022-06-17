@@ -58,14 +58,15 @@
 }
 
 .app__footer-links_icons svg {
-    color: var(--color-white);
+    color: rgb(5, 5, 183);
+    
     font-size: 20px;
     cursor: pointer;
     margin: 0 0.5rem;
 }
 
 .app__footer-links_icons svg:hover {
-    color: var(--color-golden);
+    color: rgb(49, 3, 3);
 }
 
 
@@ -120,7 +121,7 @@
     }
 
     .app__footer-links_icons svg {
-        color: var(--color-white);
+        color: black;
         font-size: 20px;
         cursor: pointer;
         margin: 0 0.5rem;
