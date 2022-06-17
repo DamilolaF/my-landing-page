@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import cutlery from '../images/cutlery.png';
 
 const About = () => {
   return (
@@ -12,7 +13,9 @@ const About = () => {
               Our restaurant was founded on the idea of providing our customers with both excellent service and quality food in an environment that feels like home.
           </p>
           <button type='button' className='custom__button'>Know More</button>
-          <span ></span>
+          <span>
+            <img src={cutlery} alt="about cutlery" className='cutlery__img'/>
+          </span>
       </div>
       <div className='app__aboutus-content_history' >
         <h1 className='headtext__cormorant'>Our History</h1>

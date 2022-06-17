@@ -3,18 +3,27 @@ import './Foods.css';
 import { foods } from '../data/foods';
 //import Cakes from './Cakes';
 import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const Foods = ({ id }) => {
+const Foods = ({id}) => {
     //<Cakes></Cakes>
+    const settings = {
+      dots: true,
+      navs: true,
+      infinite: true,
+      swipeToSlide: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+  };
         return (
-          
-        
-        <div className="foodContainer" id='#menu'>
+        <div className="foodContainer" id={id}>
             <h1 className="foodHead">Popular Meal menu </h1>
-            <div className="foodContent">
+            <div className="foodContent" >
               
               {foods.map((food, index)=> (
-                  <Slider >
+                  <Slider {...settings}>
 
                   <div className="foodCard" key={index}>
                     <img src={food.img} alt={food.alt} className="foodImg" />

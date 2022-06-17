@@ -10,7 +10,8 @@ import Foods from './components/Foods'
 import Special from './components/Special';
 import Footer from './components/Footer';
 import Chefs from './components/Chefs';
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (

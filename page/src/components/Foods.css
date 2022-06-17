@@ -1,6 +1,7 @@
+
 .foodContainer{
     min-height: 100vh;
-    padding: 5rem calc(100vh - 1300px) / 2;
+    /* padding: 5rem calc(100vh - 1300px) / 2; */
     background: #3e0707;
     color: palegoldenrod;
 }
@@ -11,6 +12,8 @@
     margin: 0 auto;
 }
 .foodCard{
+    min-height: 0;
+  min-width: 0;
     margin: 0 2rem;
     line-height: 1;
     width: 300px;
