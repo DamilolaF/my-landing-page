@@ -1,7 +1,7 @@
-
+/* 
 .foodContainer{
     min-height: 100vh;
-    /* padding: 5rem calc(100vh - 1300px) / 2; */
+   
     color: rgb(51, 49, 22); 
 }
 .foodContent{
@@ -58,4 +58,4 @@
     color: #542a1b;
     transition: 0.2s ease-out;
     cursor: pointer; 
-}
+} */
