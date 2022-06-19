@@ -13,7 +13,11 @@ const Contact = () => {
           </div>
           <br />
           <div className="field">
-          <input type="text" placeholder='Type Your E-mail' required/>
+          <input type="datetime-local" placeholder='Date' required/>
+          </div>
+         <br />
+          <div className="field">
+          <input type="email" placeholder='Type Your E-mail' required/>
           </div>
          <br />
           <div className="field">

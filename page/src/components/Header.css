@@ -77,8 +77,8 @@ p{
 .button{
     font-size: 0.6rem;
     padding: 0.5rem 1rem;
-    color:rgb(6, 6, 9);
-    border: solid 4px rgba(241, 163, 135, 0.512);
+    color:rgb(11, 11, 19);
+    border: solid 4px rgba(213, 168, 151, 0.512);
     transition: 0.2s ease-out;
     margin-bottom: 10px;
     border-radius: 6px;

@@ -8,22 +8,14 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Foods = () => {
     //<Cakes></Cakes>
-    const settings = {
-      dots: true,
-      navs: true,
-      infinite: true,
-      swipeToSlide: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-  };
+   
         return (
         <div className="foodContainer" id="menu">
             <h1 className="foodHead">Popular Meal menu </h1>
             <div className="foodContent" >
               
               {foods.map((food, index)=> (
-                  <Slider {...settings}>
+                  
 
                   <div className="foodCard" key={index}>
                     <img src={food.img} alt={food.alt} className="foodImg" />
@@ -33,7 +25,7 @@ const Foods = () => {
                     <button className='foodBtn'>Select</button>
                     </div>
                   </div>
-                  </Slider>
+                  
               ))}
             </div>
         </div>   

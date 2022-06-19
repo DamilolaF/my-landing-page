@@ -17,7 +17,7 @@ const Header = () => {
       <div className="contentItems">
       <h1 className='app__header-h1' >Flavors for royalty</h1>
       <p className='navbar-link' style={{ margin: '2rem 0' }} >
-        ipsum dolor, sit amet consectetur adipisicing elit. Enim neque sit nisi amet dicta in, ea sapiente placeat earum error.
+      Ostyler is a delicious, high-quality food resturant that will always satisfy your hunger. It has a unique flavor, which you can't find anywhere else. You'll love it!
       </p>
       
       <button type='button' className='button' ><a href='#menu'>Explore</a></button>
