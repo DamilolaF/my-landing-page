@@ -66,7 +66,10 @@
       background-position: center;
       background-size: cover;
     }
-  
+  .specialImage:hover{
+    box-shadow: 5px 7px #29470e;
+    transition: 0.2 ease-out;
+  }
     @media screen and (max-width: 935px){
       .specialContent{
         flex-direction: column;
@@ -81,7 +84,7 @@
     width: 200px;
     align-self: center;
     border-radius: 10px;
-    background: #cc5418;
+    background: #744127;
       color: #fff;
       transition: 0.2 ease-out;
   }
@@ -93,7 +96,7 @@
   }
   @media screen and (max-width: 935px){
     .btn{
-      background: rgba(212, 124, 40, 0.682);
+      background: rgba(136, 82, 31, 0.682);
      
     }
     .btn:hover{

@@ -83,9 +83,14 @@ p{
     margin-bottom: 10px;
     border-radius: 6px;
     
+    
+}
+.button a {
+    text-decoration: none;
+    color: rgb(146, 32, 32);
 }
 .button:hover{
-    background: rgb(174, 126, 113);
+    background: rgb(176, 134, 123);
     cursor: pointer;
     transform: scale(1.05);
 }

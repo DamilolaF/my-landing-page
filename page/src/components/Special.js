@@ -3,6 +3,9 @@ import './Special.css';
 import special from '../images/special-pizza.jpg';
 
 const Special = () => {
+  const onClickHandle =() => { 
+    alert(`Pizza selected!`);
+  };
   return (
 
       <div className="specialContainer">
@@ -17,7 +20,7 @@ const Special = () => {
               </p>  
         </div>
       </div>
-    <button className='btn'>Order Now</button>
+    <button className='btn' onClick={onClickHandle}>Order Now</button>
     </div>
     );
 };

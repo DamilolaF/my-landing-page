@@ -33,21 +33,35 @@
 .app__aboutus-content_history p,
 .app__aboutus-content_about p {
     margin: 2rem 0;
-    color: var(--color-grey);
+    color: white;
+    font-size: 15px;
+    
 }
+
+
 
 
 .custom__button{
-    font-size: 1rem;
-    padding: 0.4rem 0.7rem;
-    border: none;
-    background: #cec6c4;
-    color: rgb(59, 55, 7);
-    transition: 0.2 ease-out;
-    border-radius: 5px;
+    font-size: 0.6rem;
+    padding: 0.5rem 1rem;
+    color:rgb(11, 11, 19);
+    border: solid 4px rgba(62, 39, 31, 0.512);
+    transition: 0.2s ease-out;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    
+    
 }
-
-
+.custom__button a {
+    text-decoration: none;
+    color: rgb(146, 32, 32);
+}
+.custom__button:hover{
+    background: rgb(191, 184, 182);
+    color: blanchedalmond;
+    cursor: pointer;
+    transform: scale(1.05);
+}
 
 
 

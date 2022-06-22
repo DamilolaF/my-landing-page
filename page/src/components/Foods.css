@@ -19,8 +19,13 @@
 }
 .foodImg{
     height: 200px;
-    box-shadow: 5px 3px #b2940e;
+    box-shadow: 7px 3px #b2940e;
     width: auto;
+    
+    
+}
+.foodImg:hover{
+    box-shadow: 7px 3px #63b20e;
     
 }
 .foodHead{

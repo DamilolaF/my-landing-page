@@ -16,10 +16,10 @@ const Navbar = () => {
           </div>
           </Link>
          <ul className='navbar-links' >
-              <li><Link to="home" smooth={true} duration={3000}>Home</Link></li>
-              <li><Link to="about" smooth={true} duration={3000}>About</Link></li>
-              <li><Link to="menu" smooth={true} duration={3000}>Menu</Link></li>
-              <li><Link to="contact" smooth={true} duration={3000}>Reservation</Link></li>
+              <li><Link to="home" smooth={true} duration={2000}>Home</Link></li>
+              <li><Link to="about" smooth={true} duration={2000}>About</Link></li>
+              <li><Link to="menu" smooth={true} duration={2000}>Menu</Link></li>
+              <li><Link to="contact" smooth={true} duration={2000}>Reservation</Link></li>
       </ul>
       {/* <div className="reserve">
           <a href="http://geritch.com" className="navbar">Reservation</a>
@@ -32,10 +32,10 @@ const Navbar = () => {
           <div className='navbar-smallscreen_overlay flex__center slide-bottom'>
           <FaBars color='white' fontSize={25} className='overlay__close' onClick={() => setToggleMenu(false)}/>
           <ul className='navbar-smallscreen-links' >
-              <li><Link to="home" smooth={true} duration={3000}>Home</Link></li>
-              <li><Link to="about" smooth={true} duration={3000}>About</Link></li>
-              <li><Link to="menu" smooth={true} duration={3000}>Menu</Link></li>
-              <li><Link to="contact" smooth={true} duration={3000}>Reservation</Link></li>
+              <li><Link to="home" smooth={true} duration={2000}>Home</Link></li>
+              <li><Link to="about" smooth={true} duration={2000}>About</Link></li>
+              <li><Link to="menu" smooth={true} duration={2000}>Menu</Link></li>
+              <li><Link to="contact" smooth={true} duration={2000}>Reservation</Link></li>
           </ul>
         </div>
         )}

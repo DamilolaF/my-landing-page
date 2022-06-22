@@ -8,7 +8,11 @@ import { foods } from '../data/foods';
 //import { settings } from '../data/foods';
 
 const Foods = () => {
-    //<Cakes></Cakes>
+  const onClick = event => {
+    event.preventDefault();
+    alert(`Meal selected!`);
+    
+  };
    
         return (
         <div className="foodContainer" id="menu">
@@ -24,7 +28,7 @@ const Foods = () => {
                   <div className="foodInfo">
                     <div className="propTitle">{food.title}</div>
                     <div className="foodPrice">{food.price}</div>
-                    <button className='foodBtn'>Select</button>
+                    <button className='foodBtn' onClick={onClick}>Select</button>
                     </div>
                   </div>
                  //</Slider>

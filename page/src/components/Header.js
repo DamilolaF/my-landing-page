@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 //import { images } from './src/images/';
 import './Header.css';
+import Link from 'react-scroll/modules/components/Link';
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -20,7 +21,7 @@ const Header = () => {
       Ostyler is a delicious, high-quality food resturant that will always satisfy your hunger. It has a unique flavor, which you can't find anywhere else. You'll love it!
       </p>
       
-      <button type='button' className='button' ><a href='#menu'>Explore</a></button>
+      <button type='button' className='button' ><Link to="menu" smooth={true} duration={2000}>Explore</Link></button>
     </div>
     </div>
     <div className='app__wrapper_img'>

@@ -21,6 +21,9 @@
     width: auto;
     /* margin-bottom: 2rem; */
 }
+.cakeImg:hover{
+    box-shadow: 5px 4px #2f7414;
+}
 .cakeHead{
     font-size: clamp(2rem, 2.5vw, 3rem);
 	text-align: center;

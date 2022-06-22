@@ -3,8 +3,14 @@ import './About.css';
 import cutlery from '../images/cutlery.png';
 
 const About = () => {
+  const handleClick = event => {
+    event.preventDefault();
+    alert(`You Know too much already!`);
+  };
+
   return (
     <>
+    
     <div className="container" id='about'>
     <div className='app__aboutus-content_about'>
           <h1 className='headtext__cormorant'>About Us</h1>
@@ -12,7 +18,7 @@ const About = () => {
           <p className='p__opensans'>
               Our restaurant was founded on the idea of providing our customers with both excellent service and quality food in an environment that feels like home.
           </p>
-          <button type='button' className='custom__button'>Know More</button>
+          <button type='button' className='custom__button' onClick={handleClick}>Know More</button>
           <span>
             <img src={cutlery} alt="about cutlery" className='cutlery__img'/>
           </span>
@@ -25,7 +31,7 @@ const About = () => {
 
         Over the years, our restaurant has grown from a small, local establishment into one of the most popular restaurants in its area. But despite our growth, we've always stayed true to our roots: providing quality food and service with a personal touch.
         </p>
-        <button type='button' className='custom__button'>Know More</button>
+        <button type='button' className='custom__button'onClick={handleClick}>Know More</button>
       </div>
       </div>
       </>

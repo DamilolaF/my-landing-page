@@ -20,9 +20,9 @@ const Footer = () => (
         <p className="p__opensans">You deserve a meal that's as delicious as it is memorable. And we're here to help you make that happen.</p>
         <img src={spoon} alt="footer-spoon" className='spoon__img' style={{marginTop: 15}} />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+         <a href="http://facebook.com"> <FiFacebook /></a>
+         <a href="http://twitter.com"> <FiTwitter /></a>
+         <a href="http://instagram.com"><FiInstagram /></a>
         </div>
       </div>
       <div className="app__footer-links_work">
