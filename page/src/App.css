@@ -5,7 +5,7 @@
   font-family: 'Playfair Display', 'Sans-serif';
   
 }
-/* sliick slider common */
+/* sliick slider common
 .slick-prev,
 .slick-next {
   background: 
@@ -32,7 +32,7 @@
 }
 
 /* dots */
-.slick-dots {
+/* .slick-dots {
   margin-top: 20px;
 }
 .slick-dots li button:before {
@@ -112,4 +112,4 @@
     color: #542a1b;
     transition: 0.2s ease-out;
     cursor: pointer; 
-}
+} */ 

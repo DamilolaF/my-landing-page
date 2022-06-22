@@ -10,7 +10,7 @@ const Chefs = ({ id }) => {
     <div className="chefWrapper">
         {chefs.map((chef, index) => (
            
-                <div className="cakeCard">
+                <div className="cakeCard" key={index}>
                     <img src={chef.img} className="chefImg" alt={chef.alt} />
                     <div className="cakeInfo">
                         <div className="protTitle">{chef.name}</div>

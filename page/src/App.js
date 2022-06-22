@@ -13,10 +13,12 @@ import Footer from './components/Footer';
 import Chefs from './components/Chefs';
 
 
+
+
 function App() {
   return (
     <Router>
-      <div className="App">
+      {/* <div className="App"> */}
   <Navbar></Navbar>
    <Header></Header>
    <About></About>
@@ -26,7 +28,7 @@ function App() {
    <Chefs id="chef"></Chefs>
    <Contact></Contact>
    <Footer></Footer>
-  </div>
+  {/* </div> */}
     </Router>
   );
 };

@@ -1,11 +1,11 @@
 import React from 'react';
-//import './Foods.css';
+import './Foods.css';
 import { foods } from '../data/foods';
 //import Cakes from './Cakes';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { settings } from '../data/foods';
+//import Slider from 'react-slick';
+//import "slick-carousel/slick/slick.css";
+//import "slick-carousel/slick/slick-theme.css";
+//import { settings } from '../data/foods';
 
 const Foods = () => {
     //<Cakes></Cakes>
@@ -17,7 +17,7 @@ const Foods = () => {
             
               {foods.map((food, index)=> (
                  
-                 <Slider {...settings}>
+                // <Slider {...settings}>
 
                   <div className="foodCard" key={index}>
                     <img src={food.img} alt={food.alt} className="foodImg" />
@@ -27,7 +27,7 @@ const Foods = () => {
                     <button className='foodBtn'>Select</button>
                     </div>
                   </div>
-                 </Slider>
+                 //</Slider>
               ))};    
               
             </div>

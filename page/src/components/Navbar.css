@@ -5,7 +5,7 @@
    align-items: center;
    background-color: rgba(247, 242, 198, 0.45);
    background: 'transparent';
-   padding: 1rem 2rem 0.5rem ;
+   padding: 1rem 1rem 0.5rem ;
    position: fixed;
    top: 0;
    left: 0;
@@ -89,7 +89,8 @@ a:active{
 
 .navbar-smallscreen_overlay {
     position: fixed;
-    padding-left: 10rem;
+    padding: 0 10rem;
+    text-align: center;
     top: 0;
     left: 0;
     width: 100%;
